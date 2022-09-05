@@ -14,10 +14,10 @@
         <img class="d-block w-100" src="{{asset("images/banner1.png")}}" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="{{asset("images/banner1.png")}}" alt="Second slide">
+        <img class="d-block w-100" src="{{asset("images/banner2.png")}}" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="{{asset("images/banner1.png")}}" alt="Third slide">
+        <img class="d-block w-100" src="{{asset("images/banner3.png")}}" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -40,7 +40,7 @@
 <div class="about">
     <div class="about-col">
         <div class="about-cover">
-            <img src="{{asset("images/Pillar Images.jpg")}}" alt="">
+            <img src="{{asset("images/gama.jpg")}}" alt="">
         </div>
         <div class="desc-about">
             <h3>Tentang Bimbel Gama</h3>
@@ -79,13 +79,16 @@
 
     <div class="program-row">
         <div class="p1">
-            <a href="/program"><img src="{{asset("images/Group 65.png")}}" alt=""></a>
+            <a href="/program"><img src="{{asset("images/p1.png")}}" alt=""></a>
         </div>
         <div class="p1">
-            <a href="/program"><img src="{{asset("images/Group 65.png")}}" alt=""></a>
+            <a href="/program"><img src="{{asset("images/p2.png")}}" alt=""></a>
         </div>
         <div class="p1">
-            <a href="/program"><img src="{{asset("images/Group 65.png")}}" alt=""></a>
+            <a href="/program"><img src="{{asset("images/p3.png")}}" alt=""></a>
+        </div>
+        <div class="p1">
+            <a href="/program"><img src="{{asset("images/p4.png")}}" alt=""></a>
         </div>
     </div>
 </div>

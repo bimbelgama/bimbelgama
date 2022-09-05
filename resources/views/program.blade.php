@@ -3,7 +3,7 @@
 
 <div class="banner-program">
     <div class="bnr-program">
-        <img src="{{asset("images/Group 81.png")}}" alt="">
+        <img src="{{asset("images/banner3.png")}}" alt="">
     </div>
 </div>
 {{-- 
@@ -35,28 +35,28 @@
 <div class="card-p">
     <div class="p-card">
         <div class="pcard-1">
-            <img src="{{asset("images/Group 65.png")}}" alt="">
+            <img src="{{asset("images/p1.png")}}" alt="">
             <div class="card-desc">
                 <a href="#">Hubungi Kami</a>
                 <a href="#">Lihat Detail</a>
             </div>
         </div>
         <div class="pcard-1">
-            <img src="{{asset("images/Group 65.png")}}" alt="">
+            <img src="{{asset("images/p2.png")}}" alt="">
             <div class="card-desc">
                 <a href="#">Hubungi Kami</a>
                 <a href="#">Lihat Detail</a>
             </div>
         </div>
         <div class="pcard-1">
-            <img src="{{asset("images/Group 65.png")}}" alt="">
+            <img src="{{asset("images/p3.png")}}" alt="">
             <div class="card-desc">
                 <a class="blue" href="#">Hubungi Kami</a>
                 <a href="#">Lihat Detail</a>
             </div>
         </div>
         <div class="pcard-1">
-            <img src="{{asset("images/Group 65.png")}}" alt="">
+            <img src="{{asset("images/p4.png")}}" alt="">
             <div class="card-desc">
                 <a class="blue" href="#">Hubungi Kami</a>
                 <a href="#">Lihat Detail</a>
@@ -77,21 +77,15 @@
     <div class="khbg">
         <div class="k-row">
             <div class="card-kh">
-                <h3>Lorem</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur consequatur dignissimos reiciendis tempora harum quibusdam! Alias nostrum in repellendus aspernatur labore ratione vero, veniam deleniti illo reprehenderit, voluptatem hic.</p>
+                <img src="{{asset("images/g1.png")}}" alt="">
             </div>
             <div class="card-kh">
-                <h3>Lorem</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur consequatur dignissimos reiciendis tempora harum quibusdam! Alias nostrum in repellendus aspernatur labore ratione vero, veniam deleniti illo reprehenderit, voluptatem hic.</p>
+                <img src="{{asset("images/g2.png")}}" alt="">
             </div>
             <div class="card-kh">
-                <h3>Lorem</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur consequatur dignissimos reiciendis tempora harum quibusdam! Alias nostrum in repellendus aspernatur labore ratione vero, veniam deleniti illo reprehenderit, voluptatem hic.</p>
+                <img src="{{asset("images/g3.png")}}" alt="">
             </div>
-            <div class="card-kh">
-                <h3>Lorem</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur consequatur dignissimos reiciendis tempora harum quibusdam! Alias nostrum in repellendus aspernatur labore ratione vero, veniam deleniti illo reprehenderit, voluptatem hic.</p>
-            </div>
+            
         </div>
     </div>
 </div>
