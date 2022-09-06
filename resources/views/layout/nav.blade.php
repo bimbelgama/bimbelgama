@@ -40,7 +40,7 @@
       <ul class="navbar-nav">
         
         <li class="nav-item">
-          <a class="nav-link" href="/pembelajaran">Home</a>
+          <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/program">Program</a>

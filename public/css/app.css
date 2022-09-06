@@ -40,7 +40,7 @@ nav{
     display: flex;
     justify-content: center;
     text-align: center;
-
+    align-items: center;
 }
 .navbar img{
     width: 10%;
@@ -163,10 +163,14 @@ nav{
 
 .about-cover img{
     width: 100%;
+    border-radius: 15px;
 }
 
 .desc-about{
     width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 
@@ -264,16 +268,20 @@ nav{
     justify-content: space-evenly;
     width: 95%;
     gap: 20px;
+    flex-wrap: wrap;
     text-align: center;
 }
 
+.p1{
+    width: 45%;
+}
 .p1 a{
     transition: .3s;
     width: 20%;
 }
 
 .p1 a img{
-    width: 80%;
+    width: 100%;
     border-radius: 25px;
 }
 
@@ -366,20 +374,29 @@ nav{
 .lokasigama{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     align-items: center;
+    gap: 10px;
 }
 
 .loc button{
     outline: none;
     background-color: #35508E;
-    box-shadow: 5px 2px rgba(132, 132, 132, 0.471);
+    box-shadow: 5px 2px rgba(132, 132, 132, 0.477);
     color: white;
-    border: 0;
+    border: 1px solid white;
     width: 100%;
-    padding: 25px 35px;
+    padding: 20px 5px;
     cursor: pointer;
     border-radius: 20px;
+    font-size: 10px;
+    transition: .4s;
+}
+
+.loc button:hover{
+    background: white;
+    color: #2A5E90;
+    box-shadow: none;
 }
 
 
@@ -576,7 +593,7 @@ footer{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 100px;
     align-items: center;
 }
 
@@ -600,6 +617,7 @@ footer{
     text-align: center;
     gap: 20px;
     background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 30px 0px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -633,24 +651,23 @@ footer{
 }
 
 .khbg{
-    width: 70%;
+    width: 80%;
     display: flex;
 }
 
 .k-row{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     width: 100%;
-    gap: 30px;
+    gap: 20px;
 }
 
 .card-kh{
-    width: 40%;
-    height: 300px;
-    background-color: #FEE679;
-    padding: 25px;
-    border-radius: 25px;
+    width:50%;
+}
+
+.card-kh img{
+    width: 100%;
 }
 
 
@@ -1146,3 +1163,72 @@ footer{
     }
 
   }
+
+
+
+  /* hasil tryout */
+
+.waktu{
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.waktu-col{
+    width: 95%;
+    background-color: #35508E;
+    color: white;
+    padding: 15px 45px;
+    border-radius: 55px;
+}
+.detailhasil{
+    display: flex;
+    gap: 35px;
+}
+.totalsoal{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+
+.hasilsoalto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.soalto{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    background: #3d448c4e;
+    padding: 25px 25px;
+    border-radius: 25px;
+    flex-direction: column;
+}
+.nomor{
+    margin-bottom: 100px;
+}
+.gambar {
+    width: 100%;
+}
+
+.gambar img{
+    width: 50%;
+}
+.jawaban{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+}
+.jawabansoal{
+    width: 100%;
+    background: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
