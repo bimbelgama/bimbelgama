@@ -1163,3 +1163,72 @@ footer{
     }
 
   }
+
+
+
+  /* hasil tryout */
+
+.waktu{
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.waktu-col{
+    width: 95%;
+    background-color: #35508E;
+    color: white;
+    padding: 15px 45px;
+    border-radius: 55px;
+}
+.detailhasil{
+    display: flex;
+    gap: 35px;
+}
+.totalsoal{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+
+.hasilsoalto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.soalto{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    background: #3d448c4e;
+    padding: 25px 25px;
+    border-radius: 25px;
+    flex-direction: column;
+}
+.nomor{
+    margin-bottom: 100px;
+}
+.gambar {
+    width: 100%;
+}
+
+.gambar img{
+    width: 50%;
+}
+.jawaban{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+}
+.jawabansoal{
+    width: 100%;
+    background: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+}

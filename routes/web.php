@@ -34,3 +34,6 @@ Route::get('/login', function () {
 Route::get('/tryout', function () {
     return view('tryout');
 });
+Route::get('/hasiltryout', function () {
+    return view('hasiltryout');
+});
